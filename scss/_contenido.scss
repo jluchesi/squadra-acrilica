@@ -1,0 +1,23 @@
+$linkredes: rgb(122, 169, 177);
+
+.contenido{
+    display: inline-block;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 20px 40px;
+    width: 100%;
+    height: auto;
+    background-color: #e9eaf1;
+}
+
+
+.redes{
+    a {
+        color: white;
+    }
+    &:hover {color: $linkredes;}
+
+    &:focus {color: $linkredes;}
+
+}

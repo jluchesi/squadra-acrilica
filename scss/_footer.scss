@@ -1,0 +1,27 @@
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #24273d;
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    
+}
+.links-footer{
+    text-decoration:none;
+    padding: 10px 0px;
+    a {
+        color: white;
+
+    }
+    &:hover{
+        color: rgb(122, 169, 177);
+    }
+    &:visited{
+        color:rgb(255, 255, 255);
+    }
+}
+   
