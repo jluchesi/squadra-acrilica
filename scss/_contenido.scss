@@ -1,4 +1,4 @@
-$linkredes: rgb(122, 169, 177);
+
 
 .contenido{
     display: inline-block;
@@ -8,16 +8,34 @@ $linkredes: rgb(122, 169, 177);
     padding: 20px 40px;
     width: 100%;
     height: auto;
-    background-color: #e9eaf1;
+    background-color: #ffffff;
 }
-
 
 .redes{
     a {
         color: white;
     }
-    &:hover {color: $linkredes;}
+    &:hover {color: $link-hover-color;}
 
-    &:focus {color: $linkredes;}
+    &:focus {color: $link-hover-color;}
 
+}
+.carr{
+    a {
+        color: $secondary;
+        display: block;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        font-weight:bolder;
+    }
+    &:hover {
+        opacity: 0.6;
+        transition: 1s;
+        
+        } 
+    
+}
+
+.bgc-claro{
+    background-color: #f2f2f2;
 }
