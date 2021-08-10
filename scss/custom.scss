@@ -1,14 +1,49 @@
 $primary: #1b1faf;
 $font-family-sans-serif: 'Roboto', 'Anton', sans-serif;
-$link-color: white;
+$link-color: #031070;
 $link-hover-color: rgb(75, 190, 190);
 $secondary: #031070;
 $linkredes: rgb(122, 169, 177);
-
+$link-decoration: none;
 
 @import "../scss/whatsapp";
 @import "../scss/contenido";
 @import "../scss/bootstrap";
 @import "../scss/footer";
+@import "../scss/produtos";
+
+// Resolucion moviles pequenos
+@media screen and (max-width: 574px) {
+    .imagen{
+        width: 100vh;
+        height: auto;
+    }
+    .fuentecontato{
+        font-size: 12px;
+    }
+}
 
 
+// Resolucion moviles
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .imagen{
+        width: 50%;
+        height: auto;
+    }
+}
+// Resolucion tablets
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .imagen{
+        width: 80%;
+        height: auto;
+    }
+}
+// Resolucion PC
+@media screen and (min-width: 992px) {
+    .imagen{
+        
+        width: 100%;
+        height: auto;
+        
+    }
+}

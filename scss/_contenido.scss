@@ -14,28 +14,61 @@
 .redes{
     a {
         color: white;
+        list-style: none;
+        text-decoration: none;
     }
     &:hover {color: $link-hover-color;}
-
-    &:focus {color: $link-hover-color;}
-
 }
+
+.estiloredes{
+    list-style: none;
+}
+
 .carr{
-    a {
+   // padding: 0 4px;
+    a{
         color: $secondary;
         display: block;
         padding: 0.5rem 1rem;
         text-decoration: none;
         font-weight:bolder;
+        list-style: none;
     }
     &:hover {
-        opacity: 0.6;
-        transition: 1s;
-        
+        color: $primary;
+        transition: 3s;
         } 
+
+    &:visited{
+        color: $secondary; 
+        text-decoration: none;
+    }
     
 }
 
 .bgc-claro{
     background-color: #f2f2f2;
 }
+
+
+.color{
+    a {
+        color: $secondary;
+        text-decoration: none;
+        font-weight:bolder;
+       
+        
+    }
+    &:hover {
+        color: $linkredes;
+        opacity: 0.6;
+        transition: 1s;
+        
+        } 
+
+}
+
+.fuentecontato{
+    font-size: 16px;
+}
+

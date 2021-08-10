@@ -1,0 +1,127 @@
+
+.times{
+        color: white;
+        font-weight: bold;
+        width: 92%;
+        background-color: $secondary;
+        opacity: 90%;
+        
+}
+
+
+.times-img{
+
+    &:hover {
+    width: 100%;
+    height: auto;
+    background-color: $secondary;
+    opacity: 40%;
+    transition: 2s;
+    }
+}
+
+.goleiros{
+    color: white;
+    font-weight: bold;
+    width: 92%;
+    background-color: $danger;
+    opacity: 90%;
+    
+}
+
+
+.goleiros-img{
+
+&:hover {
+width: 100%;
+height: auto;
+background-color: $danger;
+opacity: 40%;
+transition: 2s;
+}
+}
+
+.palhetas{
+    color: white;
+    font-weight: bold;
+    width: 92%;
+    background-color: $warning;
+    opacity: 90%;
+    
+}
+
+
+.palhetas-img{
+
+&:hover {
+width: 100%;
+height: auto;
+background-color: $warning;
+opacity: 40%;
+transition: 2s;
+}
+}
+
+
+.bolinhas{
+    color: white;
+    font-weight: bold;
+    width: 92%;
+    background-color: $success;
+    opacity: 90%;
+    
+}
+
+
+.bolinhas-img{
+
+&:hover {
+width: 100%;
+height: auto;
+background-color: $success;
+opacity: 40%;
+transition: 2s;
+}
+}
+
+.traves{
+    color: white;
+    font-weight: bold;
+    width: 92%;
+    background-color: $dark;
+    opacity: 90%;
+    
+}
+
+
+.traves-img{
+
+&:hover {
+width: 100%;
+height: auto;
+background-color: $dark;
+opacity: 40%;
+transition: 2s;
+}
+}
+
+.pins{
+    color: white;
+    font-weight: bold;
+    width: 92%;
+    background-color: $info;
+    opacity: 90%;
+    
+}
+
+
+.pins-img{
+
+&:hover {
+width: 100%;
+height: auto;
+background-color: $info;
+opacity: 40%;
+transition: 2s;
+}
+}
