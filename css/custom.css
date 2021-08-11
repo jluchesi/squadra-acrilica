@@ -8430,12 +8430,14 @@ textarea.form-control-lg {
 
 .links-footer {
   text-decoration: none;
-  list-style: none;
-  padding: 10px 0px; }
+  list-style: none; }
   .links-footer a {
     color: white; }
   .links-footer:hover {
     color: #7aa9b1; }
+
+.footer-center {
+  align-items: center; }
 
 .times {
   color: white;
@@ -8527,7 +8529,12 @@ textarea.form-control-lg {
     height: auto; }
 
   .fuentecontato {
-    font-size: 12px; } }
+    font-size: 12px; }
+
+  .footer-center {
+    align-items: center;
+    font-size: 14px;
+    padding: 0px; } }
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .imagen {
     width: 50%;
