@@ -36,22 +36,21 @@
 .estiloredes {
   list-style: none; }
 
-.carr a {
+.menuprincipal a {
   color: #031070;
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
-  font-weight: bolder;
   list-style: none; }
-.carr:hover {
+.menuprincipal:hover {
   color: #1b1faf;
   transition: 3s; }
-.carr:visited {
+.menuprincipal:visited {
   color: #031070;
   text-decoration: none; }
 
 .bgc-claro {
-  background-color: #f2f2f2; }
+  background-color: #f2f5fa; }
 
 .color a {
   color: #031070;
@@ -8547,3 +8546,5 @@ textarea.form-control-lg {
   .imagen {
     width: 100%;
     height: auto; } }
+
+/*# sourceMappingURL=custom.css.map */
