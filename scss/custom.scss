@@ -6,6 +6,7 @@ $secondary: #031070;
 $linkredes: rgb(122, 169, 177);
 $link-decoration: none;
 
+
 @import "../scss/whatsapp";
 @import "../scss/contenido";
 @import "../scss/bootstrap";
@@ -20,6 +21,11 @@ $link-decoration: none;
     }
     .fuentecontato{
         font-size: 12px;
+    }
+    .footer-center{
+        align-items:center;
+        font-size: 14px;
+        padding: 0px;
     }
 }
 

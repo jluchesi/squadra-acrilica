@@ -1,5 +1,6 @@
 
 
+
 .contenido{
     display: inline-block;
     flex-direction: column;
@@ -24,14 +25,13 @@
     list-style: none;
 }
 
-.carr{
-   // padding: 0 4px;
+.menuprincipal{
+  
     a{
         color: $secondary;
         display: block;
         padding: 0.5rem 1rem;
         text-decoration: none;
-        font-weight:bolder;
         list-style: none;
     }
     &:hover {
@@ -47,7 +47,7 @@
 }
 
 .bgc-claro{
-    background-color: #f2f2f2;
+    background-color: #f2f5fa;
 }
 
 
